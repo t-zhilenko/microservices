@@ -1,0 +1,24 @@
+dependencies:
+- name: frankbank-common
+  repository: file://../../frankbank-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../frankbank-services/configserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../frankbank-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../frankbank-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../frankbank-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../frankbank-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../frankbank-services/message
+  version: 0.1.0
+digest: sha256:92dde81fd7330ed0dabf34ed665d4c23b5b018dd0be515aacae1cd155d2ec973
+generated: "2023-12-21T17:30:15.245116+02:00"
